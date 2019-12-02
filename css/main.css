@@ -42,7 +42,7 @@ header p {
   text-align: center;
 }
 
-header .nav {
+header nav ul {
   display: flex;
   justify-content: space-around;
   padding: 0 0 .5rem;
@@ -57,6 +57,7 @@ header li {
 header nav a {
   color: #fff;
   display: inline-block;
+  font-weight: lighter;
   font-size: 1.1rem;
   padding: .5rem .75rem;
   text-decoration: none;
@@ -68,6 +69,26 @@ header nav a:hover {
 }
 
 .banner {
+  position: relative;
+}
+
+.banner-text {
+  background-color: rgba(0, 0, 0, .4);
+  border-radius: 5px;
+  top: 15rem;
+  left: 50%;
+  max-width: 10rem;
+  position: absolute;
+}
+
+.banner-text p {
+  color: #fff;
+  font-size: .8rem;
+  margin: 0;
+  padding: .5rem;
+}
+
+.banner-img {
   display: block;
   padding-bottom: 1.3rem;
   width: 100%;
@@ -87,6 +108,7 @@ header nav a:hover {
 }
 
 .img-flex {
+  display: inline-block;
   padding: .5rem;
   width: 50%;
 }
@@ -141,19 +163,38 @@ footer {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+
+  .header p {
+    margin: 0;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
-    line-height: 1.5
+    line-height: 1.5;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
-  }
+
+
 }
