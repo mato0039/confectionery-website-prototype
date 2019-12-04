@@ -28,7 +28,8 @@ header {
 header h1 {
   color: #fff;
   display: block;
-  font-family: "DM Serif Display", serif;
+  font-family: "IM Fell Double Pica", serif;
+  font-size: 3rem;
   margin: 0;
   padding: 1rem 0 0;
   text-align: center;
@@ -37,7 +38,7 @@ header h1 {
 header p {
   color: #fff;
   font-weight: lighter;
-  font-size: .8rem;
+  font-size: 1rem;
   margin: 0 0 .75rem;
   text-align: center;
 }
@@ -58,7 +59,7 @@ header nav a {
   color: #fff;
   display: inline-block;
   font-weight: lighter;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: .5rem .75rem;
   text-decoration: none;
 }
@@ -94,7 +95,6 @@ header nav a:hover {
 
 .banner-img {
   display: block;
-  padding-bottom: 1.3rem;
   width: 100%;
 }
 
@@ -102,12 +102,13 @@ header nav a:hover {
   display: block;
   font-weight: lighter;
   margin: 0;
+  padding-top: 1.3rem;
   text-align: center;
 }
 
 .products {
   display: flex;
-  margin: 1rem .5rem 1.3rem;;
+  margin: 1rem .5rem 1.3rem;
   flex-wrap: wrap;
 }
 
@@ -159,6 +160,7 @@ header nav a:hover {
 
 .title {
   font-weight: lighter;
+  padding-top: 1.3rem;
 }
 
 .content {
@@ -173,10 +175,10 @@ header nav a:hover {
 
 .btn {
   background-color: #000;
-  border-radius: 8px;
+  border-radius: 12px;
   color: #fff;
   display: inline-block;
-  padding: .4em .75em .3em;
+  padding: 1rem;
   text-decoration: none;
 }
 
