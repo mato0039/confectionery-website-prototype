@@ -108,7 +108,7 @@ header nav a:hover {
 
 .products {
   display: flex;
-  margin: 1rem .5rem 1.3rem;
+  margin: 1rem .5rem;
   flex-wrap: wrap;
 }
 
@@ -145,6 +145,21 @@ header nav a:hover {
   width: 100%;
 }
 
+.section-head {
+  padding: 0 0 .5rem;
+}
+
+section h3,
+section p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.feature-img {
+  padding: .75rem;
+}
+
 .banner-2 {
   display: block;
   padding: 0 1rem;
@@ -168,21 +183,40 @@ header nav a:hover {
   margin-bottom: 1rem;
 }
 
+.article-content {
+  font-size: 1.1rem;
+}
+
 .button {
-  margin: 1.5rem 0;
+  margin: 0 0 1.5rem;
   text-align: center;
 }
 
 .btn {
-  background-color: #000;
   border-radius: 12px;
-  color: #fff;
   display: inline-block;
-  padding: 1rem;
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-small {
+  border: 2px solid #000;
+  color: #000;
+  font-weight: bold;
+  padding: .3rem .75rem;
+}
+
+.btn-small:hover {
+  border: 2px solid #aaa;
+  color: #aaa;
+}
+
+.btn-large {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
+.btn-large:hover {
   background-color: #aaa;
 }
 
@@ -216,6 +250,10 @@ footer p {
   padding-top: .5rem;
 }
 
+footer span {
+  font-family: "IM Fell Double Pica", serif;
+}
+
 @media only screen and (min-width: 25em) {
 
   header h1 {
@@ -224,6 +262,15 @@ footer p {
 
   header nav ul {
     padding: 0 3rem .5rem;
+  }
+
+  .card-content {
+    left: .5rem;
+    padding: 1rem;
+  }
+
+  article {
+    padding: 0 1rem;
   }
 
 }
@@ -239,6 +286,20 @@ footer p {
     padding: 0 6rem .5rem;
   }
 
+  .products {
+    flex-wrap: nowrap;
+  }
+
+  section {
+    display: flex;
+    margin: .5rem 0 1rem;
+    padding: 0 .75rem;
+  }
+
+  article {
+    padding: 0 3rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -252,6 +313,19 @@ footer p {
     padding: 0 9rem 1rem;
   }
 
+  section h3,
+  section p {
+    font-size: 1.5rem;
+  }
+
+  section p {
+    padding-bottom: 1.8rem;
+  }
+
+  article {
+    padding: 0 4rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -262,6 +336,10 @@ footer p {
 
   header nav ul {
     padding: 0 15rem 1rem;
+  }
+
+  article {
+    padding: 0 6rem;
   }
 
 }
