@@ -93,11 +93,6 @@ header nav a:hover {
   background-color: #000;
 }
 
-.banner-img {
-  display: block;
-  width: 100%;
-}
-
 .featured {
   display: block;
   font-weight: lighter;
@@ -158,12 +153,11 @@ section p {
 
 .feature-img {
   padding: .75rem;
+  width: auto;
 }
 
 .banner-2 {
-  display: block;
   padding: 0 1rem;
-  width: 100%;
 }
 
 .title,
@@ -264,6 +258,10 @@ footer span {
     padding: 0 3rem .5rem;
   }
 
+  .banner-text a {
+    font-size: 1.5rem;
+  }
+
   .card-content {
     left: .5rem;
     padding: 1rem;
@@ -282,8 +280,16 @@ footer span {
     line-height: 1.4;
   }
 
+  .banner-text a {
+    font-size: 2rem;
+  }
+
   header nav ul {
     padding: 0 6rem .5rem;
+  }
+
+  .featured {
+    font-size: 2rem;
   }
 
   .products {
@@ -296,8 +302,18 @@ footer span {
     padding: 0 .75rem;
   }
 
+  section h3,
+  section p {
+    font-size: 1.5rem;
+  }
+
   article {
     padding: 0 3rem;
+  }
+
+  .article-content,
+  article span {
+    font-size: 1.5rem;
   }
 
 }
@@ -313,9 +329,8 @@ footer span {
     padding: 0 9rem 1rem;
   }
 
-  section h3,
-  section p {
-    font-size: 1.5rem;
+  .banner-text a {
+    font-size: 2.5rem;
   }
 
   section p {
@@ -338,8 +353,17 @@ footer span {
     padding: 0 15rem 1rem;
   }
 
+  .banner-text a {
+    font-size: 3rem;
+  }
+
   article {
-    padding: 0 6rem;
+    padding: 0 10rem;
+  }
+
+  .article-content,
+  article span {
+    font-size: 2rem;
   }
 
 }
